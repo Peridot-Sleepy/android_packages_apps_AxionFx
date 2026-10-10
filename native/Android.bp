@@ -54,7 +54,6 @@ cc_library_shared {
     srcs: [
         "AxionFxEffect.cpp",
         ":axionfx_engine_srcs",
-        ":effectCommonFile",
     ],
 
     static_libs: [
