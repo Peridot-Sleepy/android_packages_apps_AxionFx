@@ -52,7 +52,6 @@ android_app {
         "androidx.lifecycle_lifecycle-runtime-compose",
         "kotlinx-coroutines-core",
         "ax_compose",
-        "ax_platform_hooks",
     ],
 
     kotlincflags: [
