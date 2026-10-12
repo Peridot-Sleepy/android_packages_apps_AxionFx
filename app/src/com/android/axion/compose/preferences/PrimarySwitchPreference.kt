@@ -37,7 +37,6 @@ fun PrimarySwitchPreference(
         summary = summary,
         icon = icon,
         customIcon = customIcon,
-        iconDrawable = iconDrawable,
         iconTint = iconTint,
         iconBackgroundColor = iconBackgroundColor,
         position = position,
