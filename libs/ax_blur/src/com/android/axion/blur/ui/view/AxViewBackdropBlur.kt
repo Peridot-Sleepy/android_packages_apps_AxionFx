@@ -645,7 +645,6 @@ class AxViewBackdropBlur @JvmOverloads constructor(
         if (!crossWindowBlurEnabled) return false
         if (!AxBlurSupport.supportsCrossWindowBlur()) return false
         val blurDrawable = blurDrawableFor(key) ?: return false
-        blurDrawable.setApplyRenderNodeAlpha(true)
         blurDrawable.setVisible(true, false)
         blurDrawable.setBlurRadius(blurRadiusPx.roundToInt())
         blurDrawable.alpha = alpha
